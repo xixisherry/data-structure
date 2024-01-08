@@ -1,11 +1,17 @@
-# m = 0
-# i=0
-# j=0
-# # n = 4
+m = 0
+i=0
+j=0
+# n = 4
+py：
+for i in range(1,n+1,1):
+    for j in range(1,2*i+1,1):
+       m += 1
+       print(m)
+C++：
+for（i = 1; i<=n; i++）
+  for(j = 1; j<2*i; j++)
+    m++;
 
-# for i in range(1,n+1,1):
-#     for j in range(1,2*i+1,1):
-#         m += 1
-#         print(m)
 
 时间复杂度为n*n-1
+
